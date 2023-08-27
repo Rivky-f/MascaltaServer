@@ -2,7 +2,12 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-
+/*{/*
+  * scaffold-DbContext 
+  * "Server=RIVKI-FARKASH;Database=Mascalta_DB 
+  * ;Trusted_Connection=True;"
+  * Microsoft.EntityFrameworkCore.SqlServer
+  * -OutputDir Modules -force -Context "applicationDbContext" -DataAnnotations*/
 namespace mascalta.Data.Modules
 {
     public partial class applicationDbContext : DbContext

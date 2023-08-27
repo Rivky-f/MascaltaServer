@@ -1,9 +1,18 @@
 using mascalta;
 using mascalta.Core.IService;
 using Microsoft.AspNetCore.Identity;
-
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy =>
+                      {
+                          policy.WithOrigins("http://example.com",
+                                              "http://localhost:3000");
+                      });
+});
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -13,12 +22,14 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<IUserService , UserService>();
 var app = builder.Build();
 
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors(MyAllowSpecificOrigins);
 
 app.UseAuthorization();
 

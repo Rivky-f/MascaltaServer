@@ -21,10 +21,11 @@ namespace mascalta.Api.Controllers
         [Route("getUser")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(UserTbl))]
         [HttpGet]
-        public async Task<ActionResult> GetItems([FromHeader] int IdUser)
+        public async Task<ActionResult> GetItems(/*[FromHeader] int IdUser*/)
         {
             try
             {
+                int IdUser = 100;
                 UserTbl user=_userService.GetUser(IdUser);
                 if (user != null)
                    return Ok(user);

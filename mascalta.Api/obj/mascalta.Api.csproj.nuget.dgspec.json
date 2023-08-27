@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta.Api\\mascalta.Api.csproj": {}
+    "E:\\תכנות רבקי\\mascalta\\server\\mascalta.Api\\mascalta.Api.csproj": {}
   },
   "projects": {
-    "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta.Api\\mascalta.Api.csproj": {
+    "E:\\תכנות רבקי\\mascalta\\server\\mascalta.Api\\mascalta.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta.Api\\mascalta.Api.csproj",
+        "projectUniqueName": "E:\\תכנות רבקי\\mascalta\\server\\mascalta.Api\\mascalta.Api.csproj",
         "projectName": "mascalta.Api",
-        "projectPath": "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta.Api\\mascalta.Api.csproj",
+        "projectPath": "E:\\תכנות רבקי\\mascalta\\server\\mascalta.Api\\mascalta.Api.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta.Api\\obj\\",
+        "outputPath": "E:\\תכנות רבקי\\mascalta\\server\\mascalta.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta.Data\\mascalta.Data.csproj": {
-                "projectPath": "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta.Data\\mascalta.Data.csproj"
+              "E:\\תכנות רבקי\\mascalta\\server\\mascalta.Data\\mascalta.Data.csproj": {
+                "projectPath": "E:\\תכנות רבקי\\mascalta\\server\\mascalta.Data\\mascalta.Data.csproj"
               },
-              "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta\\mascalta.Core.csproj": {
-                "projectPath": "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta\\mascalta.Core.csproj"
+              "E:\\תכנות רבקי\\mascalta\\server\\mascalta\\mascalta.Core.csproj": {
+                "projectPath": "E:\\תכנות רבקי\\mascalta\\server\\mascalta\\mascalta.Core.csproj"
               }
             }
           }
@@ -51,6 +51,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.21, )"
@@ -103,14 +107,14 @@
         }
       }
     },
-    "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta.Data\\mascalta.Data.csproj": {
+    "E:\\תכנות רבקי\\mascalta\\server\\mascalta.Data\\mascalta.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta.Data\\mascalta.Data.csproj",
+        "projectUniqueName": "E:\\תכנות רבקי\\mascalta\\server\\mascalta.Data\\mascalta.Data.csproj",
         "projectName": "mascalta.Data",
-        "projectPath": "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta.Data\\mascalta.Data.csproj",
+        "projectPath": "E:\\תכנות רבקי\\mascalta\\server\\mascalta.Data\\mascalta.Data.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta.Data\\obj\\",
+        "outputPath": "E:\\תכנות רבקי\\mascalta\\server\\mascalta.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -143,6 +147,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.21, )"
@@ -184,14 +192,14 @@
         }
       }
     },
-    "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta\\mascalta.Core.csproj": {
+    "E:\\תכנות רבקי\\mascalta\\server\\mascalta\\mascalta.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta\\mascalta.Core.csproj",
+        "projectUniqueName": "E:\\תכנות רבקי\\mascalta\\server\\mascalta\\mascalta.Core.csproj",
         "projectName": "mascalta.Core",
-        "projectPath": "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta\\mascalta.Core.csproj",
+        "projectPath": "E:\\תכנות רבקי\\mascalta\\server\\mascalta\\mascalta.Core.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta\\obj\\",
+        "outputPath": "E:\\תכנות רבקי\\mascalta\\server\\mascalta\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -212,8 +220,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta.Data\\mascalta.Data.csproj": {
-                "projectPath": "E:\\תכנות רבקי\\mascalta\\server\\Mascalta_S\\mascalta.Data\\mascalta.Data.csproj"
+              "E:\\תכנות רבקי\\mascalta\\server\\mascalta.Data\\mascalta.Data.csproj": {
+                "projectPath": "E:\\תכנות רבקי\\mascalta\\server\\mascalta.Data\\mascalta.Data.csproj"
               }
             }
           }
@@ -228,6 +236,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.21, )"
